@@ -1,0 +1,47 @@
+﻿body {
+    font-family: Districside;
+    margin:0;
+}
+
+.sidenav {
+    background-color: darkred;
+    overflow: hidden;
+}
+
+    .sidenav a {
+        float:left;
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: black;
+        }
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    background-image:url(fotoflamengo.jpg);
+    color:#fefefe;
+}
+.footer {
+    width:100%;
+    text-align:center;
+    padding:10px;
+    background-color:darkred;
+    color:#ffffff;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
